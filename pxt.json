@@ -5,7 +5,9 @@
     "dependencies": {
         "core": "*",
         "microphone": "*",
-        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.23"
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.23",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3"
     },
     "files": [
         "main.blocks",
