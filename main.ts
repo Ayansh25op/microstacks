@@ -23,3 +23,5 @@ input.onPinPressed(TouchPin.P1, function () {
 })
 let Status = 0
 keyboard.startKeyboardService()
+Status = 1
+basic.showIcon(IconNames.Yes)
