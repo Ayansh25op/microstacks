@@ -1,6 +1,6 @@
 input.onPinPressed(TouchPin.P0, function () {
     if (Status == 1) {
-        keyboard.sendString(" ")
+        mouse.click()
     }
 })
 input.onButtonPressed(Button.A, function () {
@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onPinPressed(TouchPin.P2, function () {
     if (Status == 1) {
-        keyboard.sendString(" ")
+        mouse.click()
     }
 })
 input.onButtonPressed(Button.B, function () {
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onPinPressed(TouchPin.P1, function () {
     if (Status == 1) {
-        keyboard.sendString(" ")
+        mouse.click()
     }
 })
 let Status = 0
